@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.logo-side {
+    height: 100px;
+    width: 10%;
+}
+
+.logo-side img {
+    width: 100%;
+    height: 100%;
+}
+
+.links-side {
+    width: 90%;
+    height: 100px;
+    
+}
+
+.upper-links {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30;
+}
+
+.upper-links ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.upper-links li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.career {
+    display: flex;
+    align-items: center;
+}
+
+.order-button svg {
+    font-size: 20px;
+    margin-right: 8px;
+    color: red;
+}
+
+.search-icon {
+    color: black;
+}
+
+.order-button button {
+    width: 190px;
+}
+
+.lower-links {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50;
+}
+
+.lower-links ul {
+    width: 77%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.lower-links li {
+    height: 40px;
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.lower-links li:hover {
+    cursor: pointer;
+    border-bottom: 5px solid red;
+}
+
+
+.playstore-link {
+    display: flex;
+    justify-content: end
+}
+
+.fa-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: 1px solid rgba(46, 44, 44, 0.829);
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.fa-facebook:hover{
+    background-color: #3C5A99;
+    border: #3C5A99;
+    color: white;
+}
+
+.fa-twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: 1px solid rgba(46, 44, 44, 0.829);
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    background-color: #1DA1F2;
+    border: #1DA1F2;
+    color: white;
+}
+
+.fa-youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: 1px solid rgba(46, 44, 44, 0.829);
+    height: 34px;
+    width: 34px;
+    border-radius: 100%;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.fa-youtube:hover {
+    background-color: #CE1312;
+    border: #CE1312;
+    color: white;
+}
+
+.fa-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px solid rgba(46, 44, 44, 0.829);
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    background-color: #D53474;
+    border: #D53474;
+    color: white;
+}
+
+.fa-linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px solid rgba(46, 44, 44, 0.829);
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    background-color: #0077B5;
+    border: #0077B5;
+    color: white;
+}
+
+
+.f-logo img {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+
+
+
+/* Contact US page */
+/*  */
+
+
+.card-img-top1 {
+    width: 100px;
+    height: 100px;
+    margin-top: -17px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* Privacy Policy Page */
+/*  */
+
+.image-tab img{
+    width: 100%;
+}

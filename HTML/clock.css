@@ -1,0 +1,73 @@
+
+
+.mainClock {
+    margin: 120px auto;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+}
+
+.dooot {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: black; 
+    position: absolute;
+    top: 175px;
+    left: 175px; 
+}
+
+.line {
+    height: 10px;
+    width: 200px;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: -75px;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
+
+.line:hover {
+    rotate: 1200deg;
+    transition: rotate 2s;
+}
+
+.bir {
+    position: absolute;
+    color: wheat;
+    text-transform: uppercase;
+    top: 80px;
+    font-size: 15px;
+    left: 35px;
+}
+
+.kor {
+    position: absolute;
+    color: wheat;
+    text-transform: uppercase;
+    top: 250px;
+    font-size: 15px;
+    left: 35px;
+}
+
+.Tea {
+    position: absolute;
+    color: wheat;
+    text-transform: uppercase;
+    top: 80px;
+    font-size: 15px;
+    left: 300px;
+}
+
+.Cold {
+    position: absolute;
+    color: wheat;
+    text-transform: uppercase;
+    top: 250px;
+    font-size: 15px;
+    left: 280px;
+}
+

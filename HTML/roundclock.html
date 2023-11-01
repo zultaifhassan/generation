@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../HTML/clock.css" /> -->
+</head>
+<body onscroll="scroll()" onresize="resize()">
+    <!-- <div class="mainClock">
+        <div class="dooot">
+            <div class="line">
+
+            </div>
+
+        </div>
+        <div class="bir">
+            <h2>biryani</h2>
+        </div>
+        <div class="kor">
+            <h2>Korma</h2>
+        </div>
+        <div class="Tea">
+            <h2>Tea</h2>
+        </div>
+        <div class="Cold">
+            <h2>Pizza</h2>
+        </div>
+    </div> -->
+
+
+    <button onclick="alarm()">Click me</button>
+
+    <img src="../Images/7.jpeg" alt="" onmouseover="image()">
+    <img src="../Images/8.jpeg" alt="" onmouseleave="image1()">
+
+    <h2 onmousedown="down()">Mouse Down</h2>
+
+    <p onmousemove="move()" style="width: 300px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quam eius tenetur, consectetur quibusdam, suscipit minima beatae deserunt asperiores quia placeat magnam eveniet fugit id eos sit possimus, quo fuga?</p>
+
+    <button onmouseout="out()">Click me for mouseout</button>
+
+    <p onmouseenter="seenter()" style="width: 300px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum quam eius tenetur, consectetur quibusdam, suscipit minima beatae deserunt asperiores quia placeat magnam eveniet fugit id eos sit possimus, quo fuga?</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente autem architecto laboriosam et dolor? Pariatur officia necessitatibus itaque, rem, commodi, dolore inventore aperiam vero tempore voluptas sit dolor facere numquam?</p>
+
+
+
+
+
+    <script>
+        const alarm = () => {
+            alert("Clicked event")
+        }
+
+        const image = () => {
+            alert("mouseover event")
+        }
+        const image1 = () => {
+            alert("mouseleave event")
+        }
+        const down = () => {
+            alert("mousedown event")
+        }
+        const move = () => {
+            alert("mousemove event")
+        }
+        const out = () => {
+            alert("mousemout event")
+        }
+        const seenter = () => {
+            alert("mousemseenter event")
+        }
+
+        const scroll = () => {
+            alert("onscroll event")
+        }
+
+        const resize = () => {
+            alert("resize event")
+        }
+
+    </script>
+</body>
+</html>

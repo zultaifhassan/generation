@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="calculator">
+        <h2>Calculator</h2>
+        <input type="number" placeholder="Enter First Number" id="fnumber">
+        <input type="number" placeholder="Enter second Number" id="snumber"><br><br>
+        <button id="Addition" onclick="add()">+</button>
+        <button id="Subtraction" onclick="sub()">-</button>
+        <button id="Multiplication" onclick="mul()">*</button>
+        <button id="Divisiion" onclick="div()">/</button>
+        <h1 id="Result"></h1>
+
+
+    </div>
+
+    <script>
+
+        let add = () => {
+            let x = document.getElementById("fnumber").value;
+            let y = document.getElementById("snumber").value;
+            let z = x + y;
+            document.getElementById("Result").innerHTML = z;  
+
+        }
+
+        let sub = () => {
+            let x = document.getElementById("fnumber").value;
+            let y = document.getElementById("snumber").value;
+            let z = x - y;
+            document.getElementById("Result").innerHTML = z;  
+
+        }
+        let mul = () => {
+            let x = document.getElementById("fnumber").value;
+            let y = document.getElementById("snumber").value;
+            let z = x * y;
+            document.getElementById("Result").innerHTML = z;  
+
+        }
+        let div = () => {
+            let x = document.getElementById("fnumber").value;
+            let y = document.getElementById("snumber").value;
+            let z = x / y;
+            document.getElementById("Result").innerHTML = z;  
+
+        }
+    
+
+    </script>
+</body>
+</html>

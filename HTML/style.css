@@ -1,0 +1,476 @@
+
+body {
+    /* background-color: gray; */
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/*
+
+.images img{
+    width: 100%;
+    height: 400px;
+}
+h1 {
+    text-align: center;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.mainboxes h3 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+.boxes .box1{
+    width: 30%;
+    background-color: purple;
+    height: 200px;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+} */
+
+/* .main-div {
+    border: 2px solid gray;
+    margin: 40px;
+    height: 90vh;
+}
+
+.main-div .first-child {
+    border: 7px solid gray;
+    height: 78vh;
+    margin: 30px;
+    background-color: blue;
+}
+
+.main-div .second-child {
+    border: 7px solid gray;
+    height: 70vh;
+    margin: 30px;
+}
+
+.baby1 {
+    background-color: #fff;
+    height: 35vh;
+    position: relative;
+}
+.baby2 {
+    background-color: #29b9c4;
+    height: 35vh;
+    box-sizing: border-box;
+    /* position: relative; 
+} */
+
+/* .head1 {    
+    height: 30px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: gray;
+    margin: 50px 0px 0px 100px;
+    position: absolute;
+}
+
+.head2 {
+    height: 30px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: gray;
+    margin: 90px 0px 0px 420px;
+    position: absolute;
+}
+.head3 {
+    height: 30px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: gray;
+    margin: 50px 0px 0px 700px;
+    position: absolute;
+}
+
+.head4 {
+    height: 30px;
+    border-radius: 10px;
+    width: 350px;
+    background-color: red;
+    margin: 170px 0px 0px 320px;
+    position: absolute;
+}
+
+.box1 {
+    background-color: white;
+    width: 400px;
+    height: 160px;
+    margin: 30px;
+    position: absolute;
+}
+.box2 {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin: 29px 600px;
+    position: absolute;
+}
+
+.head5 {
+    height: 30px;
+    border-radius: 10px;
+    width: 140px;
+    background-color: gray;
+    margin: 10px 0px 0px 30px;
+    position: absolute;
+}
+
+.head6 {
+    height: 30px;
+    border-radius: 10px;
+    width: 140px;
+    background-color: gray;
+    margin: 10px 0px 0px 220px;
+    position: absolute;
+}
+
+.head7 {
+    height: 30px;
+    border-radius: 10px;
+    width: 160px;
+    background-color: blue;
+    margin: 120px 0px 0px 120px;
+    position: absolute;
+}
+
+.head8 {
+    height: 30px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: blue;
+    margin: 20px 0px 0px 30px;
+    position: absolute;
+}
+
+.head9 {
+    height: 30px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: gray;
+    border: 1px solid green;
+    margin: 20px 0px 0px 240px;
+    position: absolute;
+}
+
+.head10 {
+    height: 30px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: gray;
+    border: 1px solid green;
+    margin: 90px 0px 0px 30px;
+    position: absolute;
+}
+
+.head11 {
+    height: 30px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: gray;
+    border: 1px solid green;
+    margin: 90px 0px 0px 240px;
+    position: absolute;
+}
+
+.head13 {
+    height: 30px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: blue;
+    border: 1px solid green;
+    margin: 155px 0px 0px 30px;
+    position: absolute;
+}
+
+.head14 {
+    height: 30px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: gray;
+    border: 1px solid green;
+    margin: 155px 0px 0px 240px;
+    position: absolute;
+}
+
+.main-photo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+}
+img {
+    height: 50%;
+}
+.images img {
+    width: 30%;
+    margin: 20px;   
+}
+
+.images img:hover {
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px #abcacc;
+    filter: grayscale(70%);
+}
+
+#image3 {
+ height: 41vh;
+} */ 
+
+
+/* 
+.main2 {
+    background-color: black;
+    height: 100vh;
+    position: relative;
+}
+
+.firstdiv {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+}
+
+.seconddiv {
+    width: 100%;
+    height: 300px;
+    margin-top: 320px;
+    position: absolute;
+    display: flex;
+}
+
+.box1 {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+.box2 {
+    background-color: white;
+    height: 100px;
+    width: 100;
+    margin: 0px 500px 0px 0px;
+}
+.box3 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 0px 700px 0px 0px;
+}
+
+.box4 {
+    background-color: white;
+    height: 150px;
+    width: 200px;
+}
+
+.box5 {
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    margin-left: 500px;
+} 
+
+.box6 {
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    margin-left: 550px;
+} */
+
+
+
+.maindiv {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(211, 204, 204, 0.37);
+}
+
+.box1 {
+    margin: 100px 100px 50px;
+    width: 50%;
+}
+.box1 h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.box1 p {
+    font-size: 24px;
+}
+
+.box2 {
+    margin: 0px 100px;
+    width: 50%;
+}   
+
+
+.progdiv{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.progber {
+    width: 0;
+    height: 100%;
+    background-color: yellow;
+    transition: width 1s; 
+    overflow: hidden;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+.progdiv:hover .progber {
+    width: 80%;
+    background-color: #FF5733; 
+    color: white;
+}
+
+.progber1 {
+    width: 0;
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 1s; 
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.progdiv1:hover .progber1 {
+    width: 60%;
+    background-color: green; 
+    color: white;
+}
+
+.progber2 {
+    width: 0;
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 1s; 
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.progdiv2:hover .progber2 {
+    width: 71%;
+    background-color: yellow;
+    color: red; 
+}
+
+
+
+
+.box20 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 650px;
+    animation: changePosition 10s infinite;
+}
+
+@keyframes changePosition {
+    0% {
+        left:0px; 
+        top:0px;
+    }
+  25%  {
+    left:1120px; 
+    top:0px;
+    }
+  50%  {
+    left:1120px; 
+    top:430px;
+    }
+  75%  {
+    left:0px; 
+    top:430px;
+    }
+  100% {
+    left:0px; 
+    top:0px;
+    }
+}
+
+
+
+.concept-grid {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    margin-top: 550px;
+    
+}
+
+.grid-2 {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+    height: 90%;
+    gap: 10px;
+
+}
+.item1 {
+    background-color: white;
+    border: 3px solid gray;
+    grid-column-start: 1;
+    grid-column-end: 4;
+   
+}
+
+.item2 {
+    background-color: white;
+    border: 3px solid gray;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+
+}
+
+.item3 {
+    background-color: white;
+    border: 3px solid gray;
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+
+}
+.item4 {
+    background-color: white;
+    border: 3px solid gray;
+    grid-column-start: 3;
+    grid-column-end: 4;
+   
+
+}
+
+.item5 {
+    background-color: white;
+    border: 3px solid gray;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+
+}
+
+
+

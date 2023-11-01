@@ -1,0 +1,1084 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.main {
+    background-image: url(../Khadi.pk/Logo/Country_Landing-0602-1920x1080.webp);
+    height: 100vh;
+    background: contain;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+}
+
+
+.second {
+    position: absolute;
+    margin: auto;
+    margin: 200px 0px 300px 950px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.842);
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.second button {
+    border-radius: 3px;
+    padding: 10px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 60px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+img {
+    height: 120px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar1{
+    background-color: rgb(238, 234, 234);
+    height: 50px;
+    width: 100%;
+}
+
+.navbar1 marquee {
+    padding-top: 15px;
+}
+
+.navbar2 {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    height: 50px;
+    width: 60px;
+}
+
+.centerlinks {
+    width: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centerlinks ul{
+    display: flex;
+    gap: 25px;
+}
+
+.centerlinks ul li{
+    color: black;
+    font-size: 14px;
+}
+
+#wbold {
+    font-weight: bold;
+}
+#wbold sup {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.iconlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconlinks ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.iconlinks ul a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.iconlinks ul img {
+    width: 20px;
+    height: 20px;
+}
+
+.iconlinks ul a li {
+    font-size: 11px;
+
+}
+
+
+
+
+
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      /* background: #eee; */
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+.imagesbox {
+    width: 98%;
+    margin: 10px auto;
+}
+.firstrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.secondrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.fimage {
+    width: 320px;
+    height: 300PX;
+}
+
+.fimage img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.slideimage-section {
+    display: flex;
+    width: 100%;
+}
+
+.side-image {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw544f69f7/images/NewFabrics-HomepageCategory.jpg");
+    position: relative;
+    background-size: cover;
+}
+
+.side-image1 {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwed649844/images/Batik-Homepage-Category-Banner-986x770.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+.side-image2 {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw866f9075/images/WestKnits-Homepage-Category-Banner-986x770.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+.side-image3 {
+    width: 50%;
+    height: 500px;
+    background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw4f346d72/images/Sale-Homepage%20Category%20Banner-986x770px.jpg");
+    position: relative;
+    background-size: cover;
+
+}
+
+.cornericon {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+    left: 585px;
+}
+
+.cornericon1 {
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+}
+.cornericon2 {
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+    left: 585px;
+}
+
+.cornericon3 {
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 150px;
+    /* left: 645px; */
+}
+
+
+
+.Pricing {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.swiper-side {
+    height: 450px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.swiper-side h2 {
+    font-size: 24px;
+    margin: 0px 0 20px 0;
+}
+
+.swiper1 {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.sildechange {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw72712a92/images/hi-res/ama231006_purple_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw72712a92/images/hi-res/ama231006_purple_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange1 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw19c40b62/images/hi-res/alk231018_blue_2.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange1:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw968f6ab5/images/hi-res/alk231018_blue_1.jpg?sw=800&sh=1200);
+}
+
+.sildechange2 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw3208849e/images/hi-res/ama231002_yellow_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange2:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwbdf3bf3e/images/hi-res/ama231002_yellow_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange3 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwd289baef/images/hi-res/ak231002_beige_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange3:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwfcad4e5b/images/hi-res/ak231002_beige_3.jpg?sw=800&sh=1200);
+}
+
+.sildechange4 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw91833c6b/images/hi-res/est23423_pink_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange4:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw887135d3/images/hi-res/est23423_pink_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange5 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw524a8fd8/images/hi-res/eet23513_off-white_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange5:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw76d07990/images/hi-res/eet23513_off-white_2.jpg?sw=800&sh=1200);
+}
+.sildechange6 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwb5b43873/images/hi-res/eet23533_beige_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange6:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw65475b00/images/hi-res/eet23533_beige_2.jpg?sw=800&sh=1200);
+}
+.sildechange7 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwcca1cf0c/images/hi-res/eet23528_green_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange7:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw2dcab9ee/images/hi-res/eet23528_green_4.jpg?sw=800&sh=1200);
+}
+
+
+.sildechange8 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw5b81ed89/images/hi-res/wsct23232_brown_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange8:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw3a50052b/images/hi-res/wsct23232_brown_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange9 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw86bfbb37/images/hi-res/wscd23249t_multi_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange9:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwc63549bc/images/hi-res/wscd23249t_multi_3.jpg?sw=800&sh=1200);
+}
+
+.sildechange10 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwd151fa72/images/hi-res/wcwt23215_beige_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange10:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw86fe2b92/images/hi-res/wcwt23215_beige_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange11 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw804eae1c/images/hi-res/wcwb23219_green_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange11:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwd15a3e98/images/hi-res/wcwb23219_green_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange12 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw465b62d1/images/hi-res/ect22410kn_lilac_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange12:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw83b09c89/images/hi-res/ect22410kn_lilac_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange13 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw9807c197/images/hi-res/ect22407kn_black_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange13:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw89bbd68a/images/hi-res/ect22407kn_black_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange14 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw6be36c5b/images/hi-res/eet22449_green_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange14:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw32c5e81a/images/hi-res/eet22449_green_2.jpg?sw=800&sh=1200);
+}
+
+.sildechange15 {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw69e8d646/images/hi-res/eeo22438_multi_1.jpg?sw=800&sh=1200);
+    height: 65%;
+    width: 100%;
+    background-size: cover;
+}
+
+.sildechange15:hover {
+    background-image: url(https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dwc42d15ac/images/hi-res/eeo22438_multi_2.jpg?sw=800&sh=1200);
+}
+
+
+.swiperrrr {
+    display: flex;
+    width: 100%;
+}
+
+.but-pri {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.but-pri button {
+    height: 30px;
+    margin: 0;
+    width: 100%;
+    background-color: #f7f2f2;
+    outline: none;
+    border: none;
+}
+
+.but-pri button:hover {
+    background-color: black;
+    color: white;
+}
+.but-pri h3 {
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 30px;
+} 
+
+.but-pri p {
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #6d6b6b;
+
+} 
+
+
+
+.shipping-sec {
+    display: flex;
+    background-color: #F1F1F1;
+    height: 80px;
+}
+
+.shipping-sec a {
+    width: 33.3%;
+    height: 80px;
+}
+
+.ship-charge {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.support {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.track-order {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sup-logo i {
+    font-size: 27px;
+}
+
+.rates-rs h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+
+
+
+
+.mail-search {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-sub {
+    width: 90%;
+    display: flex;
+}
+
+.first-know {
+    background-color: #fff;
+    width: 35%;
+}
+
+.first-know h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.first-know p {
+    margin-top: 15px;
+    line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.subscribe {
+ width: 50%;
+ display: flex;
+ align-items: center;
+ 
+}
+
+.iput-but {
+    height: 40px;
+    width: 80%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iput-but i {
+    color: rgb(168, 163, 163);
+    margin-left: 10px;
+}
+
+.iput-but input {
+    width: 60%;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.iput-but button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+
+.social-media {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    
+    
+}
+
+.fa-youtube-play {
+    cursor: pointer;
+    color: red;
+}
+
+.fa-facebook-official {
+    color: #5771A8;
+    cursor: pointer;
+
+}
+
+.fa-instagram {
+    cursor: pointer;
+    color: #CC215C;
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+
+
+.khadi-footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.khadi-footer a:hover {
+    text-decoration: underline;
+}
+.footer-head {
+    width: 90%;
+    display: flex;
+}
+
+.footer-head h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.get-touch {
+    width: 27%;
+}
+
+.address-phone {
+    margin-top: 25px;
+    width: 85%;
+}
+
+.address-phone h4 {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.address-phone p {
+    font-size: 13px;
+}
+
+
+.our-company {
+    width: 20%;
+}
+
+.about-contact {
+    margin-top: 18px;
+    line-height: 2;
+}
+
+.customer {
+    width: 36%;
+}
+
+.services {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    line-height: 2;
+}
+
+.help {
+    width: 17%;
+}
+
+.order-track {
+    margin-top: 18px;
+    line-height: 2;
+}
+
+
+
+
+.main-footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-images {
+    display: flex;
+    height: 100px;
+    width: 90%;
+}
+
+.visa {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.visa img {
+    height: 36px;
+    width: 164px;
+}
+
+.secured {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.secured img {
+    height: 35px;
+    width: 155px;
+}
+
+.f-logo {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-logo img {
+    height: 40px;
+    width: 45px;
+}
+
+.copyright {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.copyright p {
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .slideimage-section {
+        width: 100%;
+        /* height: 100px; */
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .side-image {
+        width: 100%;
+        height: 350px;
+        background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw544f69f7/images/NewFabrics-HomepageCategory.jpg");
+        position: relative;
+        background-size: cover;
+    }
+    
+    .side-image1 {
+        width: 100%;
+        height: 350px;
+        background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwed649844/images/Batik-Homepage-Category-Banner-986x770.jpg");
+        position: relative;
+        background-size: cover;
+    
+    }
+    
+    .side-image2 {
+        width: 100%;
+        height: 350px;
+        background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw866f9075/images/WestKnits-Homepage-Category-Banner-986x770.jpg");
+        position: relative;
+        background-size: cover;
+    
+    }
+    
+    .side-image3 {
+        width: 100%;
+        height: 350px;
+        background-image: url("https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw4f346d72/images/Sale-Homepage%20Category%20Banner-986x770px.jpg");
+        position: relative;
+        background-size: cover;
+    
+    }
+
+    .cornericon {
+        display: none;
+    }
+    .cornericon1 {
+        display: none;
+    }
+    .cornericon2 {
+        display: none;
+    }
+    .cornericon3 {
+        display: none;
+    }
+
+
+    .Pricing {
+        width: 100%;
+        height: 500px;
+    }
+
+
+
+    .shipping-sec {
+        display: flex;
+        background-color: #F1F1F1;
+        height: 170px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30;
+    }
+    
+    .shipping-sec a {
+        width: 80%;
+        height: 45px;
+    }
+    
+    .ship-charge {
+        display: flex;
+        justify-content: start;
+    }
+    
+    .support {
+        display: flex;
+        justify-content: start;
+    }
+    .track-order {
+        display: flex;
+        justify-content: start;
+    }
+
+
+
+    .mail-search {
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .mail-sub {
+        width: 90%;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        height: 230px;
+    }
+    
+    .first-know {
+        /* background-color: #fff; */
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+    .iput-but {
+        width: 100%;
+    }
+    
+    .iput-but button {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 120px;
+    }
+    
+    .social-media {
+        width: 40%;
+        display: flex;
+        align-items: end;
+        font-size: 35px; 
+    }
+
+
+
+
+    .khadi-footer {
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-head {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .get-touch {
+        width: 70%;
+    }
+    
+    .address-phone {
+        width: 85%;
+    }
+    .about-contact {
+        line-height: 1.8;
+    }
+    
+    .our-company {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .customer {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .services {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+        line-height: 1.8;
+
+    }
+    
+    .help {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .order-track {
+        line-height: 1.8;
+    }
+    
+
+
+    .main-footer {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-images {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 300px;
+        gap: 20px;
+    }
+    
+    .visa {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+    .secured {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+    }
+    
+    .f-logo {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    
+    
+    .copyright {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        line-height: 2.5;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+    
+  }

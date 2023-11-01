@@ -1,0 +1,47 @@
+
+
+.name {
+    color: rgb(252, 251, 251);
+    background-color: rgb(53, 51, 51);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name1 {
+    color: black;
+    background-color: white;
+    height: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.button{
+    height: 35px;
+    width: 130px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(109, 107, 107);
+    margin-bottom: 100px;
+}
+
+.button:hover{
+    background-color: rgb(70, 182, 158);
+    color: white;
+}
+
+.titlelose {
+    color: rgb(0, 238, 255);
+    background-color: rgba(255, 255, 0, 0.322);
+    width: 400px;
+    padding: 50px;
+}
+
+img {
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+}
